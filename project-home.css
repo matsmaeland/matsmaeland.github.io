@@ -1,0 +1,62 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+html {
+  background-color: black;
+}
+
+h1 {
+  font-family: "times new roman", times, serif;
+  font-style: italic;
+}
